@@ -156,6 +156,8 @@ int main(void)
 	/* Disconnect from the host - USB interface will be reset later along with the AVR */
 	USB_Detach();
 
+	_delay_ms(10);
+	
 	/* Jump to beginning of application space to run the sketch - do not reset */	
 	StartSketch();
 }
@@ -192,6 +194,7 @@ void SetupHardware(void)
 	TCCR1B = ((1 << CS11) | (1 << CS10));	// 1/64 prescaler on timer 1 input
 
 	/* Initialize USB Subsystem */
+	_delay_ms(10);
 	USB_Init();
 }
 

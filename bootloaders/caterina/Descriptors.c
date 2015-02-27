@@ -55,7 +55,7 @@ const USB_Descriptor_Device_t DeviceDescriptor =
 
 	.VendorID               = DEVICE_VID,
 	.ProductID              = DEVICE_PID,
-	.ReleaseNumber          = VERSION_BCD(00.01),
+	.ReleaseNumber          = VERSION_BCD(02.01),
 
 	.ManufacturerStrIndex   = 0x02,
 	.ProductStrIndex        = 0x01,
