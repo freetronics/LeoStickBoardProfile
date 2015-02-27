@@ -113,7 +113,7 @@ FORMAT = ihex
 
 
 # Target file name (without extension).
-TARGET = Caterina
+TARGET = Caterina-LeoStick
 
 
 # Object files directory
@@ -150,7 +150,7 @@ include $(LUFA_PATH)/LUFA/makefile
 
 
 # List C source files here. (C dependencies are automatically generated.)
-SRC = $(TARGET).c                                                 \
+SRC = Caterina.c                                                 \
 	  Descriptors.c                                               \
 	  $(LUFA_SRC_USB)                                             \
 
