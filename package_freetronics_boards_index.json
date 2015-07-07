@@ -17,10 +17,10 @@
             "help": {
 		"online": "http://forum.freetronics.com/"
             },
-            "url": "https://github.com/freetronics/LeoStickBoardProfile/releases/download/v4.0/freetronics_board_manager.zip",
-            "archiveFileName": "freetronics_board_manager.zip",
-            "checksum": "SHA-256:7874a3380611eba4f4de4949b514aefd0cc5d8074ecf2c8bf63755b5a9e9d2d9",
-            "size": "91097",
+            "url": "https://github.com/freetronics/LeoStickBoardProfile/releases/download/v4.0/freetronics_board_manager_400.zip",
+            "archiveFileName": "freetronics_board_manager_400.zip",
+            "checksum": "SHA-256:84a34608eb6479b07365ac929e70ece626fa18596978647b17c69d520d8a57da",
+            "size": "27063",
             "boards": [
             {"name": "Freetronics LeoStick"}
           ],
