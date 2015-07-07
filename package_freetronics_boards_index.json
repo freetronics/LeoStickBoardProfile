@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "freetronics",
+      "maintainer": "Freetronics",
+      "websiteURL": "http://freetronics.com/",
+      "email": "support@freetronics.com",
+      "help": {
+        "online": "http://forum.freetronics.com/"
+      },
+      "platforms": [
+        {
+            "name": "Freetronics Boards",
+            "architecture": "avr",
+            "version": "4.0.0",
+            "category": "Contributed",
+            "help": {
+		"online": "http://forum.freetronics.com/"
+            },
+            "url": "https://github.com/freetronics/LeoStickBoardProfile/releases/download/v4.0/freetronics_board_manager.zip",
+            "archiveFileName": "freetronics_board_manager.zip",
+            "checksum": "SHA-256:7874a3380611eba4f4de4949b514aefd0cc5d8074ecf2c8bf63755b5a9e9d2d9",
+            "size": "91097",
+            "boards": [
+            {"name": "Freetronics LeoStick"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+	"tools":[]
+    }
+  ]
+}
+
